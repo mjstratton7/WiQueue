@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:text="name"
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"
+        android:maxLines="1" />
+
+    <TextView
+        android:text=" - "
+        android:id="@+id/name_seperator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/name"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_alignBottom="@+id/name" />
+
+    <TextView
+        android:text="2:45"
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/name_seperator"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_alignBottom="@+id/name" />
+
+    <TextView
+        android:text="artist"
+        android:id="@+id/artist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="8dp"
+        android:maxLines="1" />
+
+    <TextView
+        android:text=" - "
+        android:id="@+id/artist_seperator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_toEndOf="@+id/artist"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/album"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/name"
+        android:layout_toEndOf="@+id/artist_seperator"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="8dp"
+        android:maxLines="1" />
+
+</RelativeLayout>

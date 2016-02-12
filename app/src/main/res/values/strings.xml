@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">WiQueue</string>
+    <string name="title_activity_main">MainActivity</string>
+    
+    <!-- Strings related to login -->
+    <string name="prompt_server">Host</string>
+    <string name="server_default">Select A Host</string>
+    <string name="server_create">Host A Playlist</string>
+
+    <string name="prompt_name">Name</string>
+    <string name="prompt_name_server">Playlist Name</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_password_optional">(optional)</string>
+
+    <string name="action_sign_in">Start</string>
+    <string name="error_invalid_name">This name is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+
+    <!-- Strings related to playlistview -->
+    <string name="menu_edit">Edit</string>
+    <string name="menu_done">Done</string>
+    <string name="empty_hint">This playlist is empty, tap add to start adding songs.</string>
+</resources>
